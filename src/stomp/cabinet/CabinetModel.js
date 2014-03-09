@@ -44,4 +44,4 @@ goog.inherits(pb.stomp.CabinetModel, pb.stomp.ConvModel);
 /**
  * @override
  */
-pb.stomp.CabinetModel.prototype.iRPath = 'audio/ir/speaker/AK-SPKRS_VinUs_002.wav';
+pb.stomp.CabinetModel.prototype.iRPath = '/assets/audio/ir/speaker/AK-SPKRS_VinUs_002.wav';

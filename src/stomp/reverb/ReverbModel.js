@@ -49,4 +49,4 @@ goog.inherits(pb.stomp.ReverbModel, pb.stomp.ConvModel);
 /**
  * @override
  */
-pb.stomp.ReverbModel.prototype.iRPath = 'audio/ir/reverb/pcm90cleanplate.wav';
+pb.stomp.ReverbModel.prototype.iRPath = '/assets/audio/ir/reverb/pcm90cleanplate.wav';
