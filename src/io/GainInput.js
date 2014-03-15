@@ -38,7 +38,7 @@ pb.io.GainInput = function(context, opt_in) {
     goog.base(this, context);
     var that = this;
 
-    that.disconnect();
+    //that.disconnect();
     that.source = context.createGain();
 
     that.input = opt_in;

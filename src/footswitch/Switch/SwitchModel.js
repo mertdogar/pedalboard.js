@@ -112,11 +112,6 @@ pb.footswitch.SwitchModel.prototype.turnOff = function() {
  */
 pb.footswitch.SwitchModel.prototype.setNodes = function(nodes) {
     this.nodes = nodes;
-
-    // Kick off toggling. Since this.toggle will invert the state and we just want to make an initial event dispatch,
-    // we invert the state; so that toggle will correct it and dispatch the correct event.
-    this.state = !this.state;
-    this.toggle();
 };
 
 
